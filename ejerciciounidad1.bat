@@ -37,7 +37,7 @@ echo.
 :: 1. Asignar una letra temporal a la particion oculta del sistema (ESP/Boot)
 echo [1/3] Localizando particion de arranque...
 mountvol X: /S >nul 2>&1
-
+echo hola
 :: Si la particion es UEFI (GPT), existira en X:. Si es BIOS/MBR, el BCD estara en C:\Boot
 if exist X:\EFI\Microsoft\Boot\BCD (
     echo [INFO] Detectado sistema UEFI (GPT).
