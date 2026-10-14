@@ -63,5 +63,10 @@ echo  Debes reiniciar para continuar
 echo =======================================================
 echo.
 set /p REBOOT="¿Deseas reiniciar la maquina virtual ahora mismo? (S/N): "
-if /i "%REBOOT%"=="S" shutdown /r /t 0
+if /i "%REBOOT%"=="S" goto reiniciar_pc
 exit
+
+:reiniciar_pc
+shutdown /r /t 0
+exit
+
