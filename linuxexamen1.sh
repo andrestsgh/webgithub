@@ -15,27 +15,31 @@ hostname $usuario
 rm bench* hello* readme*
 
 # Crear directorio raíz (si no existe)
-mkdir -p examen/{tema1,tema2,tema3}
-
-# Tema 1 - Crear subdirectorios p1, p2, p3
-mkdir -p examen/tema1/{p1,p2,p3}
+mkdir -p examen examen/tema1 examen/tema2 examen/tema3 examen/tema1/p1 examen/tema1/p2 examen/tema1/p3
 
 # Tema 1 - P1: crear archivos
-touch examen/tema1/p1/ejercicio{1,2}.txt
-touch examen/tema1/p1/ejercicio{3,4,5}.{doc,pdf,odt}
-touch examen/tema1/p1/imagen{1,2}.jpg
-touch examen/tema1/p1/imagen{3,4}.png
-touch examen/tema1/p1/libro{1,3}.txt
-touch examen/tema1/p1/libro{2,4}.{pdf,doc}
+touch examen/tema1/p1/ejercicio1.txt
+touch examen/tema1/p1/ejercicio2.txt
+touch examen/tema1/p1/ejercicio3.doc
+touch examen/tema1/p1/ejercicio4.pdf
+touch examen/tema1/p1/ejercicio5.odt
+touch examen/tema1/p1/imagen1.jpg
+touch examen/tema1/p1/imagen2.jpg
+touch examen/tema1/p1/imagen3.png
+touch examen/tema1/p1/imagen4.png
+touch examen/tema1/p1/libro1.txt
+touch examen/tema1/p1/libro2.pdf
+touch examen/tema1/p1/libro3.txt
+touch examen/tema1/p1/libro4.doc
 
 # Tema 2 - Crear subdirectorios p4, p5
-mkdir -p examen/tema2/{p4,p5}
+mkdir -p examen/tema2/p4 examen/tema2/p5
 
 # Tema 2 - P4: crear archivo
 touch examen/tema2/p4/saludo1.txt
 
 # Tema 3 - Crear subdirectorios p6, p7
-mkdir -p examen/tema3/{p6,p7}
+mkdir -p examen/tema3/p6 examen/tema3/p7
 
 # Tema 3 - P6: crear archivo
 touch examen/tema3/p6/saludo2.txt
